@@ -1,0 +1,1 @@
+Display block segun me tengo entendido que estos se apilan uno sobre otro y no de pueden mover como tal y si queremos centrarlo debemos ponerle un margin auto esto segun si deseamos centrar estos div, si buscamos que solo un elemento este en el mero centreo debemos colocar auto y si queremos variar 50% auto u auto 50%

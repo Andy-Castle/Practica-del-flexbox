@@ -1,0 +1,21 @@
+div {
+  width: 400px;
+  height: 400px;
+  /* margin: 50% auto; */
+}
+
+.B1 {
+  background-color: green;
+}
+
+.B2 {
+  background-color: blue;
+}
+
+.B3 {
+  background-color: crimson;
+}
+
+.B4 {
+  background-color: yellow;
+}

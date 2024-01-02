@@ -1,0 +1,45 @@
+#main-container {
+  border: 5px solid black;
+  width: 100vh;
+  height: 100vh;
+  margin: auto;
+  display: flex;
+  align-items: flex-end;
+}
+
+/* parte superior del cuadro */
+#cuadros {
+  display: grid;
+}
+
+.amarrillo {
+  background-color: yellow;
+}
+
+.blanco-superior {
+  border: 5px solid black;
+}
+
+/* Parter inferior del cuadro */
+#fila-inferior {
+  display: flex;
+}
+.azul {
+  background-color: #08388a;
+  width: 30vh;
+  height: 18vh;
+  border: 5px solid black;
+}
+
+.blanco-inferior1 {
+  background-color: white;
+  width: 46.5vh;
+  border: 5px solid black;
+}
+
+.blanco-inferior2 {
+  background-color: white;
+  width: 20vh;
+
+  border: 5px solid black;
+}
