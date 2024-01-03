@@ -1,45 +1,125 @@
 #main-container {
-  border: 5px solid black;
-  width: 100vh;
-  height: 100vh;
+  display: block;
+  border: 5px solid black; /*5px*/
+  width: 430px; /*430px*/
+  height: 410px; /*410px*/
   margin: auto;
-  display: flex;
-  align-items: flex-end;
+  /* display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr; */
 }
 
-/* parte superior del cuadro */
-#cuadros {
-  display: grid;
+.parte-superior {
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+}
+
+.amarrillo_blanco {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+}
+
+.parte-inferior {
+  display: flex;
+  flex-direction: row;
+  margin: 0;
 }
 
 .amarrillo {
+  border: 5px solid black;
   background-color: yellow;
+  width: 100px; /*100px*/
+  height: 200px; /*200px*/
 }
 
-.blanco-superior {
+.blanco1 {
   border: 5px solid black;
+  background-color: white;
+  width: 100px; /*100px*/
+  height: 102px; /*102px*/
 }
 
-/* Parter inferior del cuadro */
-#fila-inferior {
-  display: flex;
+.rojo {
+  border: 5px solid black;
+  background-color: red;
+  width: 330px; /*330px*/
+  height: 312px; /*312px*/
+  margin: 0;
 }
+
 .azul {
-  background-color: #08388a;
-  width: 30vh;
-  height: 18vh;
   border: 5px solid black;
+  background-color: blue;
+  width: 100px; /*100px*/
+  height: 80px; /*80px*/
+  margin: 0;
 }
 
-.blanco-inferior1 {
+.blanco2 {
+  border: 5px solid black;
   background-color: white;
-  width: 46.5vh;
-  border: 5px solid black;
+  width: 200px; /*200px*/
+  margin: 0;
 }
 
-.blanco-inferior2 {
+.blanco3 {
+  margin: 0;
+  border: 5px solid black;
   background-color: white;
-  width: 20vh;
-
-  border: 5px solid black;
+  width: 101px; /*101px*/
 }
+
+/* Parte superior izquierda */
+/* .amarillo_blanco {
+  display: flex;
+  flex-direction: column;
+}
+.amarrillo {
+  border: 5px solid black;
+  background-color: yellow;
+  width: 100px;
+  height: 100px;
+}
+
+.blanco_superior {
+  border: 5px solid black;
+  background-color: white;
+  width: 100px;
+  height: 100px;
+}
+
+/* Parte del cuadro rojo */
+/* .rojo {
+  border: 5px solid black;
+  background-color: red;
+  width: 100px;
+  height: 100px;
+} */
+/* Parte inferior del cuadro */
+/* .azul_blanco_blanco {
+  display: flex;
+  flex-direction: row;
+}
+
+.azul {
+  border: 5px solid black;
+  background-color: blue;
+  width: 34vh;
+  height: 16.66vh;
+}
+
+.blanco1 {
+  border: 5px solid black;
+  background-color: white;
+  width: 50vh;
+  height: 16.66vh;
+}
+
+.blanco2 {
+  border: 5px solid black;
+  background-color: white;
+  width: 16.66vh;
+  height: 16.66vh;
+}  */
