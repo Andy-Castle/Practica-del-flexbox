@@ -1,8 +1,8 @@
 #main-container {
   display: block;
-  border: 5px solid black; /*5px*/
-  width: 430px; /*430px*/
-  height: 410px; /*410px*/
+  border: 10px solid black; /*5px*/
+  width: 860px; /*430px*/
+  height: 820px; /*410px*/
   margin: auto;
   /* display: grid;
   grid-template-columns: 1fr 1fr;
@@ -28,47 +28,47 @@
 }
 
 .amarrillo {
-  border: 5px solid black;
+  border: 10px solid black;
   background-color: yellow;
-  width: 100px; /*100px*/
-  height: 200px; /*200px*/
+  width: 200px; /*100px*/
+  height: 400px; /*200px*/
 }
 
 .blanco1 {
-  border: 5px solid black;
+  border: 10px solid black;
   background-color: white;
-  width: 100px; /*100px*/
-  height: 102px; /*102px*/
+  width: 200px; /*100px*/
+  height: 205px; /*102px*/
 }
 
 .rojo {
-  border: 5px solid black;
+  border: 10px solid black;
   background-color: red;
-  width: 330px; /*330px*/
-  height: 312px; /*312px*/
+  width: 660px; /*330px*/
+  height: 624px; /*312px*/
   margin: 0;
 }
 
 .azul {
-  border: 5px solid black;
+  border: 10px solid black;
   background-color: blue;
-  width: 100px; /*100px*/
-  height: 80px; /*80px*/
+  width: 200px; /*100px*/
+  height: 160px; /*80px*/
   margin: 0;
 }
 
 .blanco2 {
-  border: 5px solid black;
+  border: 10px solid black;
   background-color: white;
-  width: 200px; /*200px*/
+  width: 400px; /*200px*/
   margin: 0;
 }
 
 .blanco3 {
   margin: 0;
-  border: 5px solid black;
+  border: 10px solid black;
   background-color: white;
-  width: 101px; /*101px*/
+  width: 202px; /*101px*/
 }
 
 /* Parte superior izquierda */
